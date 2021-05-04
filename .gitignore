@@ -1,2 +1,6 @@
 .idea
 *pycache*
+DemoGame/bin
+DemoGame/obj
+DemoGame/DemoGame.csproj
+DemoGame.sln
