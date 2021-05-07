@@ -1,4 +1,5 @@
 .idea
+.vs
 *pycache*
 DemoGame/bin
 DemoGame/obj
