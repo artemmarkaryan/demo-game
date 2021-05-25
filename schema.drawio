@@ -1,1 +1,168 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T15:38:19.281Z" agent="5.0 (Macintosh)" version="14.7.1" etag="PZCFjvEmPbk43e9E6RPP" type="github"><diagram id="nwhoni9C7bJ3x32q98Hb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-25T17:01:41.442Z" agent="5.0 (Macintosh)" etag="-jBrm7K5ESiZGPNcuf39" version="14.7.1" type="github">
+  <diagram id="nwhoni9C7bJ3x32q98Hb" name="Page-1">
+    <mxGraphModel dx="2626" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-2" target="ZZwoZRenWSHS_cQAvGIG-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-46" value="GameParams" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZZwoZRenWSHS_cQAvGIG-4">
+          <mxGeometry x="-0.1261" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-2" value="class Gameplay" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-769" y="175" width="200" height="200" as="geometry">
+            <mxRectangle x="-769" y="575" width="118" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-8" target="ZZwoZRenWSHS_cQAvGIG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-3" value="class Game" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-769" y="790.0000000000001" width="200" height="200" as="geometry">
+            <mxRectangle x="-769" y="575" width="118" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-8" value="&lt;div&gt;List&amp;lt;GameState&amp;gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZZwoZRenWSHS_cQAvGIG-3">
+          <mxGeometry x="40" y="102" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-39" value="Name" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZZwoZRenWSHS_cQAvGIG-3">
+          <mxGeometry x="40" y="42" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-5" value="class GameState" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-769" y="1032" width="200" height="200" as="geometry">
+            <mxRectangle x="-769" y="575" width="118" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-9" value="ArmySnapshot Friends" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZZwoZRenWSHS_cQAvGIG-5">
+          <mxGeometry x="40" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-10" value="ArmySnapshot Enemies" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZZwoZRenWSHS_cQAvGIG-5">
+          <mxGeometry x="40" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-15" target="ZZwoZRenWSHS_cQAvGIG-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-15" value="class Army" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-262" y="793" width="200" height="200" as="geometry">
+            <mxRectangle x="-769" y="575" width="118" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-16" value="List&amp;lt;Column&amp;gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZZwoZRenWSHS_cQAvGIG-15">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-23" target="ZZwoZRenWSHS_cQAvGIG-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-22" value="class Column" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="793" width="200" height="200" as="geometry">
+            <mxRectangle x="-769" y="575" width="118" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-23" value="List&amp;lt;IUnit&amp;gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ZZwoZRenWSHS_cQAvGIG-22">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-28" value="interface IUnit" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="248" y="793" width="200" height="200" as="geometry">
+            <mxRectangle x="-769" y="575" width="118" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-34" target="ZZwoZRenWSHS_cQAvGIG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-36" value="&lt;div&gt;CreateGame;&lt;/div&gt;&lt;div&gt;&lt;div&gt;set sum;&lt;/div&gt;&lt;div&gt;choose units;&lt;/div&gt;&lt;div&gt;request randomizer;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;SkipForward;&lt;/div&gt;StepForward;&lt;br&gt;StepBack;" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];spacingTop=0;spacing=0;spacingLeft=0;spacingRight=0;labelBorderColor=#000000;html=1;container=0;" vertex="1" connectable="0" parent="ZZwoZRenWSHS_cQAvGIG-35">
+          <mxGeometry x="-0.0228" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-34" value="CLI" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1138" y="235" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-40" target="ZZwoZRenWSHS_cQAvGIG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-50" value="Army Friends, Army Enemies" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZZwoZRenWSHS_cQAvGIG-47">
+          <mxGeometry x="0.0581" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-40" target="ZZwoZRenWSHS_cQAvGIG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-49" value="Game" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZZwoZRenWSHS_cQAvGIG-48">
+          <mxGeometry x="0.3109" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-40" target="ZZwoZRenWSHS_cQAvGIG-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-359" y="793" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-69" value="IArmyType" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZZwoZRenWSHS_cQAvGIG-68">
+          <mxGeometry x="0.224" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-40" value="class GameCreator" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-769" y="494" width="200" height="200" as="geometry">
+            <mxRectangle x="-769" y="575" width="118" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-52" target="ZZwoZRenWSHS_cQAvGIG-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-71" value="Army" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZZwoZRenWSHS_cQAvGIG-70">
+          <mxGeometry x="-0.5775" relative="1" as="geometry">
+            <mxPoint x="-2" y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-52" target="ZZwoZRenWSHS_cQAvGIG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-52" target="ZZwoZRenWSHS_cQAvGIG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-52" value="class ArmyCreator" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="793" width="200" height="200" as="geometry">
+            <mxRectangle x="-769" y="575" width="118" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-54" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;int Cost&lt;/li&gt;&lt;li&gt;ArmyType Type&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="ZZwoZRenWSHS_cQAvGIG-52">
+          <mxGeometry x="26" y="81" width="133" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-73" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-310" y="506.75" width="276" height="174.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-55" value="interface IArmyType" style="swimlane;" vertex="1" parent="ZZwoZRenWSHS_cQAvGIG-73">
+          <mxGeometry width="276" height="76" as="geometry">
+            <mxRectangle x="-769" y="575" width="118" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-56" value="&lt;div&gt;- Columns int&lt;/div&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;html=1;" vertex="1" parent="ZZwoZRenWSHS_cQAvGIG-55">
+          <mxGeometry x="103" y="40" width="81" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-57" value="class SingleColumnArmy : IArmyType" style="swimlane;align=right;" vertex="1" collapsed="1" parent="ZZwoZRenWSHS_cQAvGIG-73">
+          <mxGeometry y="89.5" width="276" height="23" as="geometry">
+            <mxRectangle x="-383" y="546" width="242" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-59" value="class TrippleColumnArmy : IArmyType" style="swimlane;align=right;" vertex="1" collapsed="1" parent="ZZwoZRenWSHS_cQAvGIG-73">
+          <mxGeometry y="120.5" width="276" height="23" as="geometry">
+            <mxRectangle x="-383" y="546" width="242" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-60" value="class StenkaArmy : IArmyType" style="swimlane;align=right;" vertex="1" collapsed="1" parent="ZZwoZRenWSHS_cQAvGIG-73">
+          <mxGeometry y="151.5" width="276" height="23" as="geometry">
+            <mxRectangle x="-383" y="546" width="242" height="76" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZwoZRenWSHS_cQAvGIG-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZwoZRenWSHS_cQAvGIG-55" target="ZZwoZRenWSHS_cQAvGIG-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
