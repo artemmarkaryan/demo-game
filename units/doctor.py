@@ -17,6 +17,7 @@ class Doctor(unit.Unit):
             friends_army: army.Army,
             enemies_army: army.Army
     ):
+        s = []
         to_cure = []
         if index + 1 < len(friends_army):
             to_cure.append(friends_army[index + 1])
@@ -26,3 +27,6 @@ class Doctor(unit.Unit):
         for u in to_cure:
             if u.curable:
                 u.health += 10
+                s.append(f"{u}: +10 к здоровью")
+
+        return '\n'.join(s)

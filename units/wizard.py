@@ -19,11 +19,16 @@ class Wizard(unit.Unit):
             enemies_army: army.Army
     ):
         to_clone = []
+        s = []
         if index+1 < len(friends_army):
             to_clone.append(friends_army[index+1])
         if index-1 > 0:
             to_clone.append(friends_army[index-1])
 
+        u: unit.Unit
         for u in to_clone:
             if u.clonable:
-                friends_army.append(u)
+                friends_army.append(u.clone())
+                s.append(f"{u} клонирован")
+
+        return '\n'.join(s)

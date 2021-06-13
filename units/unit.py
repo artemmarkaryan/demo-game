@@ -1,5 +1,6 @@
 import random
 import army
+import copy
 
 
 class Unit:
@@ -22,6 +23,11 @@ class Unit:
             enemies_army: army.Army
     ):
         pass
+
+    def clone(self):
+        c = copy.copy(self)
+        c.id = random.randint(0, 100)
+        return c
 
     def __str__(self):
         return f"{self.name} #{self.id}"
