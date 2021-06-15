@@ -12,6 +12,7 @@ class Unit:
     cost = 0
     clonable = False
     curable = True
+    special_action_probability = 1
 
     def __init__(self):
         self.id = random.randint(0, 100)

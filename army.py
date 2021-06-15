@@ -35,13 +35,14 @@ class Army(list):
     def trigger_special_actions(self, enemies):
         s = []
         for i in range(1, len(self)):
-            action_string = self[i].special_action(
-                index=i,
-                friends_army=self,
-                enemies_army=enemies
-            )
-            if action_string is not None:
-                s.append(action_string)
+            if random.random() > self[i].special_action_probability:
+                action_string = self[i].special_action(
+                    index=i,
+                    friends_army=self,
+                    enemies_army=enemies
+                )
+                if action_string is not None:
+                    s.append(action_string)
 
         return "\n".join(s)
 

@@ -10,6 +10,7 @@ class Doctor(unit.Unit):
     cost = 30
     clonable = False
     curable = True
+    special_action_probability = 0.5
 
     def special_action(
             self,

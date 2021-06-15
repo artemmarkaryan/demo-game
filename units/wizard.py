@@ -10,7 +10,7 @@ class Wizard(unit.Unit):
     cost = 100
     clonable = False
     curable = True
-
+    special_action_probability = 0.5
 
     def special_action(
             self,
