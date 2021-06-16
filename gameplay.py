@@ -58,15 +58,20 @@ def game():
     print(game_snapshots[i])
 
     while True:
-        if i == len(game_snapshots) - 1:
-            print(game_snapshots[i])
-            break
-
-        inp = input("вперёд/назад (в/н): ")
+        inp = input("вперёд/назад/конец/выйти (в/н/к/е): ")
         if inp == "в":
-            i += 1
-        elif inp == "н":
+            if i < len(game_snapshots) - 1:
+                i += 1
+            else:
+                print(game_snapshots[i])
+                break
+
+        elif inp == "н" and i > 0:
             i -= 1
+        elif inp == "к":
+            i = len(game_snapshots) - 1
+        elif inp == "е":
+            break
 
         print(game_snapshots[i])
 

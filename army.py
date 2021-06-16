@@ -34,7 +34,7 @@ class Army(list):
 
     def trigger_special_actions(self, enemies):
         s = []
-        for i in range(1, len(self)):
+        for i in range(0, len(self)):
             if random.random() > self[i].special_action_probability:
                 action_string = self[i].special_action(
                     index=i,
